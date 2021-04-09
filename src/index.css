@@ -67,8 +67,17 @@ label:hover {
 .output {
   height: 60px;
   font-size: 0.8rem;
+  border: 2px solid magenta;
 }
 
 .error {
   color: var(--error);
+}
+
+/* progress bar styles */
+.progress-bar {
+  height: 5px;
+  background-color: var(--primary);
+  margin-top: 20px;
+  width: 100%;
 }
