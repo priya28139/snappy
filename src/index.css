@@ -67,7 +67,6 @@ label:hover {
 .output {
   height: 60px;
   font-size: 0.8rem;
-  border: 2px solid magenta;
 }
 
 .error {
