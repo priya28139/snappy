@@ -80,3 +80,19 @@ label:hover {
   margin-top: 20px;
   width: 100%;
 }
+
+/* image grid styles */
+.image-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.image-wrap {
+  height: 0;
+  padding: 50% 0;
+  overflow: hidden;
+  opacity: 0.8;
+  position: relative;
+}
