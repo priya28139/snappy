@@ -96,3 +96,22 @@ label:hover {
   opacity: 0.8;
   position: relative;
 }
+
+/* modal styles */
+.backdrop {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.modal-image {
+  display: block;
+  margin: auto;
+  max-height: 80%;
+  max-width: 60%;
+}

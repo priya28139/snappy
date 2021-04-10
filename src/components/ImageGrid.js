@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import useFirestore from "../hooks/useFirestore";
 
-const ImageGrid = () => {
+const ImageGrid = ({ setSelectedImage }) => {
   const { docs } = useFirestore("images");
   return (
     <div className="image-grid">
@@ -16,6 +16,7 @@ const ImageGrid = () => {
               backgroundSize: "100%",
               objectFit: "cover",
             }}
+            onClick={() => setSelectedImage(doc.url)}
           ></div>
         ))}
     </div>
